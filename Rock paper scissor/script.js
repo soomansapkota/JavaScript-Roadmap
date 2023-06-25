@@ -3,6 +3,7 @@ const finalColumn = document.querySelector('[data-final-column]')
 const computerScore = document.querySelector('[data-computer-score]')
 const yourScore = document.querySelector('[data-your-score]')
 
+// Array of Objects
 const SELECTIONS = [
 {
     name: 'rock',
@@ -29,7 +30,7 @@ selectionButtons.forEach(selectButton => {
         
     })
 })
-
+    // first-part
 function makeSelection(selection) {
     const computerSelection = randomSelection()
     const yourWinner = isWinner(selection, computerSelection)
@@ -60,6 +61,7 @@ function isWinner(selection,opponentSelection)
     return selection.beats === opponentSelection.name
 }
 
+// second-part
 function randomSelection(){
    const randomIndex = Math.floor(Math.random()*SELECTIONS.length)
    return SELECTIONS[randomIndex]

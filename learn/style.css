@@ -1,0 +1,37 @@
+
+.body{
+    box-sizing: border-box;
+    display: block;
+}
+
+
+
+.grandparent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border:2.5rem solid skyblue;
+    width:12rem;
+    height:12rem;
+}
+
+.parent{
+    position: absolute;
+    top: 71%;
+    left: 71%;
+    transform: translate(-71%, -71%);
+    border:2.1rem solid rgb(135, 235, 192);
+    width:7.6rem;
+    height:7.6rem;
+}
+
+.child{
+    position: absolute;
+    top: 105%;
+    left: 70%;
+    transform: translate(-71%, -108%);
+    border:2rem solid rgb(246, 108, 135);
+    width:3.25rem;
+    height:3.3rem;
+}

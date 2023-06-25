@@ -34,6 +34,7 @@ function getStudents(){
 
 let newStudent = {name:"Summy",subject:"java"}
 enrollStudent(newStudent,getStudents)
+
 // getStudents()
 
 //Callback function is used to hold the another function till one function runs

@@ -15,9 +15,9 @@
 // myFunction();
 
 
-function myScript(some)
+function myScript(value)
 {
-    document.getElementById("demo").innerHTML = some;
+    document.getElementById("demo").innerHTML = value;
 
 }
 async function myFunction(){
